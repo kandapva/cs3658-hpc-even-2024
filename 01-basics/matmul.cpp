@@ -42,7 +42,7 @@ int main(){
     stop = high_resolution_clock::now();
     duration = duration_cast<microseconds>(stop - start);
 
-    std::cout << "Time taken by method 1: "
+    std::cout << "Time taken by method 2: "
               << duration.count() << " microseconds" << std::endl;
 
     return 0;
